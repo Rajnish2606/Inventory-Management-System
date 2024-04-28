@@ -19,16 +19,8 @@ This is a backend application for managing inventory.
 
 Unit tests are provided for controller and service classes to verify functionality and ensure reliability.
 
-## Logging
+## Run
 
-Logging configuration can be added using logging frameworks like Log4j or Logback.
-
-## Security
-
-Security measures such as authentication and authorization can be implemented using Spring Security.
-
-## Performance Optimization
-
-Performance can be optimized through caching, database query optimization, and resource usage monitoring.
+To Run the application run InventoryManagementApplication class.
 
 
