@@ -19,8 +19,5 @@ This is a backend application for managing inventory.
 
 Unit tests are provided for controller and service classes to verify functionality and ensure reliability.
 
-## Run
-
-To Run the application run InventoryManagementApplication class.
 
 
