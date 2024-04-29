@@ -29,31 +29,31 @@ http://localhost:8080
 
 ## Endpoints
 
-## Deduct Inventory
-# Method: POST
-# Endpoint: /inventory/deduct
-# Request Body Format:
-# json
+#### Deduct Inventory
+### Method: POST
+### Endpoint: /inventory/deduct
+### Request Body Format:
+### json
    Copy code
    {
       "productId": "product_id",
       "quantity": quantity
    }
-# Response Format: Success message or error message
+### Response Format: Success message or error message
 Transaction Validation Rules: Quantity to deduct must be positive and available in inventory.
 
 
 ## Add Inventory
-# Method: POST
-# Endpoint: /inventory/add
-# Request Body Format:
-# json
+### Method: POST
+### Endpoint: /inventory/add
+### Request Body Format:
+### json
    Copy code
   {
     "productId": "product_id",
     "quantity": quantity
   }
-# Response Format: Success message or error message
+### Response Format: Success message or error message
 Transaction Validation Rules: Quantity to add must be positive.
 
 
